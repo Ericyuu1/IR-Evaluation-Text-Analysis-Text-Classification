@@ -85,6 +85,3 @@ Test set is now out in the following link. Without making any further changes to
     improved,test,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 where the 0 values are replaced with the scores you computed for each class or the macro-average, according to the column names from the header. Each row represents the performance for one of the models (baseline or improved) for one of the splits in the dataset (train, dev, or test).
 in the header, p=precision, r=recall, f=f1-score, pos=positive, neg=negative, neu=neutral, macro=macro-averaged scores across all 3 corpora. That is, "p-pos" means the precision score for the positve class, "r-pos" is the recall for that class, and so on.
-- check the format of your file using this script.
-In your report on this assignment, in the "Classification" section, please explain how you managed to improve the performance compared to the baseline system, and mention how much gain in the Macro-F1 score you could achieve with your improved method when evaluted on the dev set, and how much gain on the test set. Why did you make the changes that you did?
-- Note: it is okay if your test results are different from the development set results, but if the difference is significant, please discuss why you think that is the case in your report.
